@@ -25,6 +25,11 @@
 		9ABA79251E5C35B600030520 /* UIButton+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA791C1E5C35B600030520 /* UIButton+ZY.m */; };
 		9ABA79261E5C35B600030520 /* UIImage+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA791E1E5C35B600030520 /* UIImage+ZY.m */; };
 		9ABA79271E5C35B600030520 /* UIViewController+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA79201E5C35B600030520 /* UIViewController+ZY.m */; };
+		EA3A1E4A1F943A9600F32F74 /* UIView+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1E421F943A9400F32F74 /* UIView+ZY.m */; };
+		EA3A1E4B1F943A9600F32F74 /* UIView+ZYMB.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1E441F943A9500F32F74 /* UIView+ZYMB.m */; };
+		EA3A1E4C1F943A9600F32F74 /* UIBarButtonItem+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1E471F943A9600F32F74 /* UIBarButtonItem+ZY.m */; };
+		EA3A1E4D1F943A9600F32F74 /* UISearchBar+ZYPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1E481F943A9600F32F74 /* UISearchBar+ZYPlaceholder.m */; };
+		EA3A1E511F943F4E00F32F74 /* UILabel+ZYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1E501F943F4E00F32F74 /* UILabel+ZYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,17 @@
 		9ABA791F1E5C35B600030520 /* UIViewController+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZY.h"; sourceTree = "<group>"; };
 		9ABA79201E5C35B600030520 /* UIViewController+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZY.m"; sourceTree = "<group>"; };
 		9ABA79281E5C363200030520 /* ZYConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYConst.h; sourceTree = "<group>"; };
+		EA3A1E421F943A9400F32F74 /* UIView+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZY.m"; sourceTree = "<group>"; };
+		EA3A1E431F943A9500F32F74 /* UIView+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZY.h"; sourceTree = "<group>"; };
+		EA3A1E441F943A9500F32F74 /* UIView+ZYMB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYMB.m"; sourceTree = "<group>"; };
+		EA3A1E451F943A9500F32F74 /* UIView+ZYMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYMB.h"; sourceTree = "<group>"; };
+		EA3A1E461F943A9500F32F74 /* UIBarButtonItem+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZY.h"; sourceTree = "<group>"; };
+		EA3A1E471F943A9600F32F74 /* UIBarButtonItem+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZY.m"; sourceTree = "<group>"; };
+		EA3A1E481F943A9600F32F74 /* UISearchBar+ZYPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+ZYPlaceholder.m"; sourceTree = "<group>"; };
+		EA3A1E491F943A9600F32F74 /* UISearchBar+ZYPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+ZYPlaceholder.h"; sourceTree = "<group>"; };
+		EA3A1E4E1F943B7F00F32F74 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA3A1E4F1F943F4E00F32F74 /* UILabel+ZYAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZYAdd.h"; sourceTree = "<group>"; };
+		EA3A1E501F943F4E00F32F74 /* UILabel+ZYAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZYAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +151,7 @@
 				9A74EE4C1E5C1927009287CB /* AppDelegate.h */,
 				9A74EE4D1E5C1927009287CB /* AppDelegate.m */,
 				9ABA79281E5C363200030520 /* ZYConst.h */,
+				EA3A1E4E1F943B7F00F32F74 /* PrefixHeader.pch */,
 				9A74EE4F1E5C1927009287CB /* ViewController.h */,
 				9A74EE501E5C1928009287CB /* ViewController.m */,
 				9A74EE521E5C1928009287CB /* Main.storyboard */,
@@ -216,6 +233,16 @@
 				9ABA791E1E5C35B600030520 /* UIImage+ZY.m */,
 				9ABA791F1E5C35B600030520 /* UIViewController+ZY.h */,
 				9ABA79201E5C35B600030520 /* UIViewController+ZY.m */,
+				EA3A1E461F943A9500F32F74 /* UIBarButtonItem+ZY.h */,
+				EA3A1E471F943A9600F32F74 /* UIBarButtonItem+ZY.m */,
+				EA3A1E491F943A9600F32F74 /* UISearchBar+ZYPlaceholder.h */,
+				EA3A1E481F943A9600F32F74 /* UISearchBar+ZYPlaceholder.m */,
+				EA3A1E431F943A9500F32F74 /* UIView+ZY.h */,
+				EA3A1E421F943A9400F32F74 /* UIView+ZY.m */,
+				EA3A1E451F943A9500F32F74 /* UIView+ZYMB.h */,
+				EA3A1E441F943A9500F32F74 /* UIView+ZYMB.m */,
+				EA3A1E4F1F943F4E00F32F74 /* UILabel+ZYAdd.h */,
+				EA3A1E501F943F4E00F32F74 /* UILabel+ZYAdd.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -359,9 +386,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABA79211E5C35B600030520 /* NSDate+ZY.m in Sources */,
+				EA3A1E4A1F943A9600F32F74 /* UIView+ZY.m in Sources */,
 				9ABA79251E5C35B600030520 /* UIButton+ZY.m in Sources */,
 				9A74EE511E5C1928009287CB /* ViewController.m in Sources */,
+				EA3A1E4D1F943A9600F32F74 /* UISearchBar+ZYPlaceholder.m in Sources */,
 				9ABA79271E5C35B600030520 /* UIViewController+ZY.m in Sources */,
+				EA3A1E4B1F943A9600F32F74 /* UIView+ZYMB.m in Sources */,
 				9A74EE4E1E5C1927009287CB /* AppDelegate.m in Sources */,
 				9A74EE8E1E5C1A0E009287CB /* MBProgressHUD.m in Sources */,
 				9ABA79231E5C35B600030520 /* AppDelegate+ZY.m in Sources */,
@@ -369,6 +399,8 @@
 				9ABA79241E5C35B600030520 /* CALayer+ZY.m in Sources */,
 				9ABA79261E5C35B600030520 /* UIImage+ZY.m in Sources */,
 				9A74EE4B1E5C1927009287CB /* main.m in Sources */,
+				EA3A1E4C1F943A9600F32F74 /* UIBarButtonItem+ZY.m in Sources */,
+				EA3A1E511F943F4E00F32F74 /* UILabel+ZYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +550,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y798R64W36;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYSDK/PrefixHeader.pch";
 				INFOPLIST_FILE = ZYSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYSDK;
@@ -530,6 +564,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y798R64W36;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYSDK/PrefixHeader.pch";
 				INFOPLIST_FILE = ZYSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYSDK;

@@ -20,8 +20,8 @@
 /** 字典 转为 jsonStr */
 // 😀😉😌😰😂 Emoji start
 /**
-*  将十六进制的编码转为emoji字符
-*/
+ *  将十六进制的编码转为emoji字符
+ */
 + (NSString *)emojiWithIntCode:(int)intCode;
 
 /**
@@ -91,12 +91,21 @@
 #pragma mark - function😂 --
 /** 适合的高度 默认 font 宽  */
 - (CGFloat)heightWithFont:(NSInteger)font w:(CGFloat)w;
+/*  返回有文字有间隙的 高度   */
+- (CGFloat)heightWithFont:(NSInteger)font w:(CGFloat)w lineSpace:(CGFloat)space;
 
 /** 适合的宽度 默认 font 高  */
 - (CGFloat)widthWithFont:(NSInteger)font h:(CGFloat)h;
 
 /** 根据字体大小与最大宽度 返回对应的size*/
 - (CGSize)sizeWithFont:(UIFont *)font maxW:(CGFloat)maxW;
+/**
+ *  返回字符串所占用的尺寸
+ *
+ *  @param font    字体
+ *  @param maxSize 最大尺寸
+ */
+- (CGRect)sizeWithFont:(UIFont *)font maxSize:(CGSize)maxSize;
 /** 根据字体大小 返回对应的size*/
 - (CGSize)sizeWithFont:(UIFont *)font;
 
@@ -120,6 +129,8 @@
 
 /** 限制的最大显示长度字符 */
 - (NSString *)limitMaxTextShow:(NSInteger)limit;
+/**截取 . 之前的字符*/
+- (NSString *)ZYSubstringWithPriceString:(NSString *)price;
 
 - (BOOL)isEmpty;
 
@@ -128,6 +139,8 @@
 
 /** 验证手机号码合法性 */
 - (BOOL)isValidPhone;
+/** 验证手机号/电话 */
+- (BOOL)validateContactNumber;
 /** 验证身份证号码 */
 - (BOOL)isValidID;
 /** 验证银行卡 */
@@ -149,5 +162,9 @@
 - (BOOL)isPureNumber;
 /** 获取UUID */
 + (NSString *)UUID;
+/** 获取版本号 */
++ (NSString *)systemVersion;
+
 
 @end
+

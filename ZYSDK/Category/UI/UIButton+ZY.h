@@ -37,4 +37,5 @@ typedef NS_ENUM(NSUInteger, MKButtonEdgeInsetsStyle) {
  *  @param color    倒计时中的颜色
  */
 - (void)startWithTime:(NSInteger)timeLine title:(NSString *)title countDownTitle:(NSString *)subTitle mainColor:(UIColor *)mColor countColor:(UIColor *)color;
+
 @end
